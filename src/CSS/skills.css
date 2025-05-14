@@ -1,0 +1,247 @@
+.skills{
+    position: relative;
+    top: 150px;
+    margin-left: 5%;
+    z-index: 1000;
+    text-transform: capitalize;
+}
+.skill{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 190px;
+}
+.skill-container{
+    position: relative;
+    bottom: 5px;
+}
+.skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 1px 6px 10px rgba(0, 0, 0, 0.15);
+}
+.html{
+    height: 200px;
+    background-color:#ffffff;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 20px 30px;
+    border-radius: 5px;
+    box-shadow: 1px 4px 5px grey;
+}
+.css{
+    height: 200px;
+    background-color:#ffffff;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 20px 30px;
+    border-radius: 5px;
+    box-shadow: 1px 4px 8px grey;
+}
+.js{
+    height: 200px;
+    background-color:#ffffff;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 20px 30px;
+    border-radius: 5px;
+    box-shadow: 1px 4px 5px grey;
+}
+.sql{
+    height: 200px;
+    background-color:#ffffff;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 20px 30px;
+    border-radius: 5px;
+    box-shadow: 1px 4px 5px grey;
+}
+.html > img{
+    background-color:#fde2f4;
+    padding: 30px;
+    border-radius: 50%;
+}
+.css > img{
+    background-color:#fde2f4;
+    padding: 30px;
+    border-radius: 50%;
+}
+.js > img{
+    background-color:#fde2f4;
+    padding: 30px;
+    border-radius: 50%;
+}
+.sql > img{
+    background-color:#fde2f4;
+    padding: 30px;
+    border-radius: 50%;
+}
+.html > figcaption{
+    position: relative;
+    left: 100px;
+    bottom: 45px;
+    border: 2px solid #ffe6df;
+    font-weight: 700;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    align-content: center;
+    padding: 5px;
+    border-radius: 50%;
+    background-color:#fffefee6;
+}
+.css> figcaption{
+    position: relative;
+    left: 100px;
+    bottom: 45px;
+    border: 2px solid #ffe6df;
+    font-weight: 700;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    align-content: center;
+    padding: 5px;
+    border-radius: 50%;
+    background-color:#fffefee6;
+}
+.js > figcaption{
+    position: relative;
+    left: 100px;
+    bottom: 45px;
+    border: 2px solid #ffe6df;
+    font-weight: 700;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    align-content: center;
+    padding: 5px;
+    border-radius: 50%;
+    background-color:#fffefee6;
+}
+.sql> figcaption{
+    position: relative;
+    left: 100px;
+    bottom: 45px;
+    border: 2px solid #ffe6df;
+    font-weight: 700;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    align-content: center;
+    padding: 5px;
+    border-radius: 50%;
+    background-color:#fffefee6;
+}
+.html > span{
+    font-weight: 700;
+    letter-spacing: 1px;
+    color:#525050;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.css > span{
+    font-weight: 700;
+    letter-spacing: 1px;
+    color:#525050;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.js > span{
+    font-weight: 700;
+    letter-spacing: 1px;
+    color:#525050;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.sql > span{
+    font-weight: 700;
+    letter-spacing: 1px;
+    color:#525050;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+@media (max-width: 1200px) {
+    .skills {
+        margin-left: 3%;
+    }
+    .skill {
+        gap: 25px;
+    }
+}
+
+@media (max-width: 992px) {
+    .skills {
+        margin-left: 0;
+        top: 100px;
+    }
+    .skill {
+        top: 130px;
+        gap: 20px;
+    }
+    .skill-card {
+        max-width: 200px;
+        padding: 15px 20px;
+    }
+    
+    
+}
+@media (max-width: 768px) {
+    .skills {
+        top: 80px;
+        margin-left: 0;
+    }
+    
+    .skill {
+        flex-direction: column;
+        align-items: center;
+        top: 100px;
+        gap: 20px;
+    }
+    
+    .skill-card {
+        max-width: 250px;
+        height: auto;
+        flex-direction: row; 
+        justify-content: flex-start;
+        padding: 15px 20px;
+        text-align: left;
+        gap: 20px;
+    }
+    
+    .skill-card > img {
+        padding: 20px;
+        width: 60px;
+        height: 60px;
+        margin: 0;
+    }
+    
+    .skill-card > span {
+        margin-top: 0;
+        font-size: 14px;
+    }
+    
+    .skill-card > figcaption {
+        position: static;
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .skill-card {
+        max-width: 100%;
+        padding: 15px;
+    }
+    
+    .skill-card > img {
+        padding: 15px;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .skill-card > span {
+        font-size: 13px;
+    }
+}

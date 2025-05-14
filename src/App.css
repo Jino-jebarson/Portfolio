@@ -1,0 +1,29 @@
+table{
+    border: 1px solid grey;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 30%;
+}
+th{
+    padding: 15px 20px;
+    border: 1px solid grey;
+    text-transform: capitalize;
+    background-color: orangered;
+    color: whitesmoke;
+}
+tr{
+    border: 1px solid grey;
+}
+td{
+    border: 1px solid grey;
+    padding: 10px 15px;
+    background-color: wheat;
+    color: rgb(59, 53, 42);
+    text-transform: capitalize;
+}
+
+.box{
+    border:  1px solid grey;
+    background-color: cadetblue;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color:#fafafb;
+    box-sizing: border-box;
+}
+.hero-container{
+    position: relative;
+    bottom: 120px;
+    margin-left: 160px;
+    z-index: 1000;
+    display: flex;
+    height: 47vh;
+}
+.h1{
+    line-height: 50px;
+}
+.c1{
+    color: #6244c5;
+    font-weight: 600;
+    font-size: 23px;
+    letter-spacing: 3px;
+}
+.c2{
+    letter-spacing: 1px;
+    margin-left: -11px;
+    font-size: 40px;
+}
+.c3{
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-size: 23px;
+    margin-left: -6px;
+}
+.b1{
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    background-color:#6244c5 ;
+    color: #ffff;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    height: 45px;
+    margin-left: -8px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.h2{
+    position:relative;
+    bottom: 150px;
+}
+.pro{
+    position: absolute;
+    left: 350px;
+}
+.pro > img{
+    height: 400px;
+    width: 320px;
+    border-radius: 15px;
+    margin-top: 30px;
+
+}
+@media (max-width: 1200px) {
+    .hero-container {
+        margin-left: 100px;
+        bottom: 120px;
+    }
+    .pro {
+        left: 300px;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-container {
+        margin-left: 60px;
+        bottom: 100px;
+    }
+    .pro {
+        left: 250px;
+        width: 120px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-container {
+        margin-left: 30px;
+        bottom: 80px;
+    }
+    .c1, .c3 {
+        font-size: 18px;
+    }
+    .c2 {
+        font-size: 32px;
+    }
+    .pro {
+        position: relative;
+        left: 0;
+        margin-top: 20px;
+        width: 100px;
+    }
+    .h2 {
+        bottom: 100px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-container {
+        margin-left: 15px;
+        bottom: 60px;
+    }
+    .c1 {
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+    .c2 {
+        font-size: 24px;
+        margin-left: 0;
+    }
+    .c3 {
+        font-size: 16px;
+        margin-left: 0;
+    }
+    .b1 {
+        font-size: 14px;
+        height: 40px;
+        margin-left: 0;
+    }
+    .h2 {
+        bottom: 80px;
+    }
+}
+
+@media (max-width: 400px) {
+    .hero-container {
+        margin-left: 10px;
+        bottom: 40px;
+    }
+    .c1 {
+        font-size: 14px;
+    }
+    .c2 {
+        font-size: 20px;
+    }
+    .c3 {
+        font-size: 14px;
+    }
+}
+.log{
+    position: relative;
+    bottom: 400px;
+    z-index: -100;
+}
